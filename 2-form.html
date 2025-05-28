@@ -5,22 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
-  <script type="module" crossorigin src="/vanilla-app-template/assets/modulepreload-polyfill-B5Qt9EMX.js"></script>
-  <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/styles-Lh-OO3Oq.css">
+  <script type="module" crossorigin src="/vanilla-app-template/2-form.js"></script>
+  <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/modulepreload-polyfill-B5Qt9EMX.js">
+  <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/styles-Ceiq8Miq.css">
 </head>
 
 <body>
     <div class="form-container">
         <form class="feedback-form" autocomplete="off">
-            <label>
+            <label class="label">
                 Email
-                <input type="email" name="email" autofocus />
+                <input class="input" type="email" name="email" autofocus />
             </label>
-            <label>
+            <label class="label">
                 Message
-                <textarea name="message" rows="8"></textarea>
+                <textarea class="textarea" name="message" rows="8"></textarea>
             </label>
-            <button type="submit">Submit</button>
+            <button class="form-button" type="submit">Submit</button>
         </form>
     </div>
 </body>

@@ -1,1 +1,0 @@
-*{box-sizing:border-box}body{padding:24px 156px;background-color:#fafafa;color:#212121;line-height:1.5}.gallery{display:flex;flex-wrap:wrap;gap:24px;justify-content:center}.gallery li{width:calc((100% - 48px) / 3);list-style:none}.gallery img{display:block;max-width:100%;height:auto}
